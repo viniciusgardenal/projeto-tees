@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import MeuFooter from './componentes/footer/footer.jsx';
+import MeuHeader from './componentes/header/header.jsx';
+import MeuNav from './componentes/nav/nav.jsx';
+import MeuMain from './componentes/main/main.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <MeuHeader/>
+      <MeuNav/>
+      <MeuMain/>
+      <MeuFooter/>  
+    </body>
+
   );
 }
 

@@ -1,0 +1,29 @@
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+  }
+  nav ul li {
+    margin: 5px 20px;
+  }
+
+  .nav-right {
+    float: right;
+  }
+
+  nav ul li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  nav ul:hover {
+    text-decoration: none;
+    background-color: green;
+  }
