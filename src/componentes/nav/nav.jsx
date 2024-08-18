@@ -2,12 +2,13 @@ import './nav.css'
 
 function MeuNav() {
     return (
-        <nav>
-        <ul>
+        <nav className='nav nav-ul-principal .nav-ul-li-principal '>
+        <ul className='nav-ul-li-a'>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li className='nav-right'><a href="#">Contato</a></li>
+          <li><a href="#">Pacientes</a></li>
+          <li><a href="#">Agendamentos</a></li>
+          <li><a href="#">Estoque</a></li>
+          <li><a href="#">Relatórios</a></li>
         </ul>
       </nav>
     )
